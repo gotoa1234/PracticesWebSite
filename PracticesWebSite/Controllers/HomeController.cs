@@ -10,6 +10,7 @@ namespace PracticesWebSite.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Test WebPage.";
             return View();
         }
 
