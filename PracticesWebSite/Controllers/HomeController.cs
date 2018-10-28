@@ -14,7 +14,7 @@ namespace PracticesWebSite.Controllers
             return View();
         }
 
-        public ActionResults About()
+        public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
